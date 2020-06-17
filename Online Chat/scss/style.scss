@@ -1,0 +1,48 @@
+$font-family:"Lato", sans-serif;
+$border-radius:10rem;
+@import "../bootstrap/scss/bootstrap";
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: $font-family;
+}
+.icons {
+  svg {
+    margin-left: 5px;
+  }
+}
+
+.form-control:focus {
+  border-color:inherit;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+
+}
+.send-icon {
+  fill:$primary;
+  font-size:10rem;
+}
+
+.chat-body{
+  position: relative;
+  width: calc(100% - 0.6vw);
+.card-body{
+height: calc(100vh - 35vh);
+  overflow-y: auto;
+  .chat-message{
+    max-width: 20%;
+  }
+}
+}
+
+@media only screen and (max-width: 400px) {
+  .chat-message{
+    max-width: 200px;
+    .card-title {
+      font-size:8px;
+      text-align: justify;
+      height:100%;
+    }
+  }
+}
