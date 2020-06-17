@@ -10,7 +10,7 @@ cd Bootstrap-theme
 
 ```
 
-*** Bootstrap Themes  ***
+** Bootstrap Themes
 - School Page
 This is just a home page of the school.
 
