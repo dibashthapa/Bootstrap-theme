@@ -1,0 +1,38 @@
+$font-family:'Roboto', sans-serif;
+$border-radius:1.2rem;
+$white:#ecf0f1;
+$primary:#dddddd;
+@import "../bootstrap/scss/bootstrap";
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: $font-family;
+}
+
+.login{
+margin-top: auto;
+margin-bottom: auto;
+height: 80%;
+i{
+  position: absolute;
+  padding-top:10px;
+  z-index: 100;
+  padding-left: 20px;
+}
+.form-control{
+    border:none;
+    position: relative;
+    &:focus {
+      border-color:inherit;
+      -webkit-box-shadow:none;
+      box-shadow:none;
+    }
+}
+
+  img {
+    object-fit: cover;
+    width: inherit;
+  }
+}
