@@ -55,6 +55,23 @@ cd 'School Page'
 sass --watch scss/style.css css/style.css
 ```
 
+##### Screenshots
+---
+**Online Chat**
+<img src="screenshots/chat.png">
+
+--------
+
+**Form**
+<img src="screenshots/form.png">
+
+--------
+
+**School Page**
+<img src="screenshots/school.png">
+
+-------
+
 ##### Customation
 This is still in progress.
 
