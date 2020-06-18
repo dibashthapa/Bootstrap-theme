@@ -1,5 +1,5 @@
 # Introduction
-**Bootstrap Theme For Backend developers**
+**Bootstrap Theme For Lazy developers**
 
 
 ### Installation
@@ -46,14 +46,15 @@ cd Bootstrap-theme
 </table>
 
 
-##### Choose Your Theme
+##### Theme Usage
 For eg. School Page
 
 
 ```
 cd 'School Page'
-sass --watch scss/style.css css/style.css
 ```
+Open **index.html** in your browser
+
 
 ##### Screenshots
 ---
@@ -72,9 +73,26 @@ sass --watch scss/style.css css/style.css
 
 -------
 
-##### Customation
-This is still in progress.
+#### Customization
+Customization of these themes are easy. They are created with the help of sass. You can choose any theme and modify any Bootstrap variables as you like. I assume you already have the knowledge of **SASS** and **Bootstrap**. <br>
 
+ All the Bootstrap variables are stored in
+ ```
+boostrap/scss/_variables.scss
+ ```
+
+All you have to do is change the default variables  in **scss/style.scss** before importing
+
+```
+$varible_name = value
+@import .....
+```
+Well you did change the variable but the styles won't take effects until you compile the scss file
+```
+scss --watch scss/style.scss css/style.css
+```
 #### Contribution
-Feel free to contribute.
-Fork this repository and submit your pull requests
+-----
+
+#### How to contribute ?
+*Copy your favorite template from the internet. Don't download all the static files and post here. Open up your favorite editor and create your own theme by looking other's theme and Submit your pull requests*
